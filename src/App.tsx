@@ -30,8 +30,11 @@ export function App(props: {
               ? <image src={reactLynxLogo} className='Logo--react' />
               : <image src={lynxLogo} className='Logo--lynx' />}
           </view>
-          <text className='Title'>Hello</text>
+          <text className='Title'>HackStreetBoys</text>
           <text className='Subtitle'>on Lynx</text>
+        </view>
+        <view className="inputView">
+            <input className="inputBox" placeholder = "Type message here...."/>
         </view>
         <view className='Content'>
           <image src={arrow} className='Arrow' />
